@@ -1,0 +1,74 @@
+body  {
+ background-image: url('../photos/backG2mobi.jpg');
+ background-repeat: no-repeat;
+ background-size: 100vw;
+ background-attachment: fixed;
+}
+
+@media only screen and (orientation: landscape) {
+    body {
+        background-image: url('../photos/backG2.jpg');
+  }
+}
+
+* {box-sizing:border-box;}
+.flagsDiv{
+	width: 28px;
+	height: auto;
+	margin: 0px;
+	padding: 2px;
+	float: right;
+}
+.flags{
+	float: centre;
+	width: 25px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+} 
+
+.flags:hover{
+	width: 27px;
+	height: auto;
+	box-shadow: 2px 2px 5px hsla(200, 30%, 40%, 1);
+}
+.ulStyle {
+font-family: Apple Chancery, cursive;
+box-shadow: 0 0 7px hsla(36, 55%, 60%, 0.6), 0 0 0px black;
+color: black;
+width: 80vw; 
+margin-left: 10vw;
+margin-right: 10vw;
+background-color: hsla(36, 55%, 60%, 1);
+}
+
+ul {
+	width: 100%;	
+	list-style-type: none;
+	margin: 0;
+	padding: 5;
+	overflow: hidden;
+  }
+  
+  li {
+	float: right;
+    font-size: 17px;
+
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+  }
+  
+  li a:hover {
+	background-color: hsla(36, 55%, 60%, 1);
+  }
+
+  .title{
+    text-shadow: 0 0 17px hsla(36, 55%, 60%, 0.6), 0 0 10px black;
+    text-align: center;
+  }
