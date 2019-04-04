@@ -4,6 +4,7 @@
  <title>Main Page</title>
  <link rel="stylesheet" href="..\css\StyleUniversal.css"></link>
  <link rel="stylesheet" href="..\css\StyleTab.css"></link>
+ <link rel="stylesheet" href="..\css\StyleInterest.css"></link>
  <meta http-equiv="refresh" content="60">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta charset="UTF-8"/>
@@ -18,7 +19,9 @@
     <div class="flagsDiv"><input type="image" src="..\photos\flagGer.jpg" onclick="gerF()"  class="flags"></input></div>	
     <div class="flagsDiv"><input type="image" src="..\photos\flagPl.jpg" onclick="plF()" class="flags"></input></div>
     <br />
-    
+
+
+<div class="rama">
     <div>
         <ul class="ulStyle">
             <li><a href="../html/interests.html">Interests</a></li>
@@ -28,26 +31,42 @@
         </ul>
     </div><br />
 
-<div style="margin-left:50px;margin-right:50px;">
-<header>
-  <h2>Documente</h2>
-</header>
 
-<section>
-<nav>
-<button class="buttonList" type="button" onclick="sportF()">Sport</button><br />
-<button class="buttonList" type="button" onclick="handMadeF()">Hand Made</button><br />
-<button class="buttonList" type="button" onclick="travelF()">Reisen</button><br />
-<button class="buttonList" type="button" onclick="eatingF()">Essen</button><br />
-      
-  </nav>
-  
-  <article>
-    <h1 id="docTitle">Sport</h1>
-    <img id="imgDocs1" src="" alt="no nie znalazl" style="width:40vw;"></img>
+<div class="gallery">
+  <a target="iFrame" href="interestPages\interestSport.html">
+    <img src="..\photos\interest\sport1.jpg" alt=":(" width="600px" height="400px">
+  </a>
+  <div class="desc">Sport</div>
+</div>
 
-  </article>
+<div class="gallery">
+  <a target="iFrame" href="interestPages\interestHandMade.html">
+    <img src="..\photos\interest\bike1.jpg" alt=":(" width="600px" height="400px">
+  </a>
+  <div class="desc">Hand Made</div>
+</div>
 
-</section>
+<div class="gallery">
+  <a target="iFrame" href="interestPages\interestTravel.html">
+    <img src="..\photos\interest\travel11.jpg" alt=":(" width="600" height="400">
+  </a>
+  <div class="desc">Reisen</div>
+</div>
 
+<div class="gallery">
+    <a href="interestPages\interestEating.html" target="iFrame" >
+      <img src="..\photos\interest\eating1.jpg" alt=":(" width="600" height="400">
+    </a>
+    <div class="desc">Essen</div>
+  </div>
+
+  <div>
+    <iframe src="interestPages\interestEating.html" name="iFrame" style="border:none;background-color:hsla(36, 67%, 90%, 0.9);width:100%;height:1500px">
+    
+
+    </iframe>
+  </div>
+
+
+</div>
 </body>

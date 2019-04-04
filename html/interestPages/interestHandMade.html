@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+ <title>Main Page</title>
+ <meta http-equiv="refresh" content="60">
+ <link rel="stylesheet" href="..\css\StyleInterest.css"></link>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta charset="UTF-8"/>
+ <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+ <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet">
+</head>
+<body>
+<p style="text-align:center;margin-top:8px;font-family:'Source Sans Pro';font-size:40px;">Hand Made</p>
+   
+<script>
+    function TurnOn(){
+    document.getElementById('imgBike').src="../../photos/interest/bike2.jpg"
+    }
+    function TurnOff(){
+    document.getElementById('imgBike').src="../../photos/interest/bike1.jpg"
+    }
+</script>
+
+<div style="width:40%; float:left;">
+        <img id="imgBike"  onmousemove="TurnOn()" onmouseout="TurnOff()" src="../../photos/interest/bike1.jpg" alt=":(" width=100%></img>
+        <img src="..\..\photos\interest\typiara1.jpg" alt=":(" width=100%></img>
+        <img src="..\..\photos\interest\typiara2.jpg" alt=":(" width=100%></img>
+
+</div>
+
+<div style="width:50%;float:right;margin-right:30px;font-family:'Source Sans Pro';">
+    <p>Ich habe keine lebiebteste Technik. Manchmal male ich kleinformatigen Bilder mit den Acrylfarben, manchmal nähen ich Kleidungen.</p> 
+    <p>Letztens habe ich ein Radfahr mit dem Erbauer Stichsäge gemacht.</p>
+
+</div>
+
+  
+</body>
