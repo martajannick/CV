@@ -1,8 +1,14 @@
+* {
+    box-sizing: border-box;
+  }
+
 body  {
  background-image: url('../photos/backG2mobi.jpg');
  background-repeat: no-repeat;
  background-size: 100vw;
  background-attachment: fixed;
+ font-family: 'Source Sans Pro';
+ font-weight: 300;
 }
 
 @media only screen and (orientation: landscape) {
@@ -33,7 +39,7 @@ body  {
 	box-shadow: 2px 2px 5px hsla(200, 30%, 40%, 1);
 }
 .ulStyle {
-font-family: Apple Chancery, cursive;
+font-family: 'Source Sans Pro';
 box-shadow: 0 0 7px hsla(36, 55%, 60%, 0.6), 0 0 0px black;
 color: black;
 width: 80vw; 
@@ -71,4 +77,28 @@ ul {
   .title{
     text-shadow: 0 0 17px hsla(36, 55%, 60%, 0.6), 0 0 10px black;
     text-align: center;
+  }
+
+  .leftDiv{
+    float: left;
+    width: 25vw;
+
+
+  }
+  .aboutMe{
+    float: left;
+    width: 65vw;
+    background-color: green;
+
+  }
+  .contact{
+    background-color: black;
+    color: white;
+    width: 420px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    float: right;
   }

@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Apple Chancery, cursive;
-}
-
 /* Style the header */
 header {
   background-color: #666;
@@ -63,11 +59,10 @@ footer {
 }
 
 .buttonList {
-
 	border: none;
 	background-color: none;
 	font-size: 17px;
-	font-family: Apple Chancery, cursive;
+	font-family: 'Source Sans Pro';
 	margin: 5px;
 	text-align: left;
 
