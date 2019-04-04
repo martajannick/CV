@@ -1,18 +1,67 @@
 ﻿<!DOCTYPE html>
 <html lang="pl-PL">
 <head>
- <title>Main Page</title>
  <link rel="stylesheet" href="..\css\StyleUniversal.css"></link>
  <link rel="stylesheet" href="..\css\StyleTab.css"></link>
  <link rel="stylesheet" href="..\css\StyleInterest.css"></link>
- <meta http-equiv="refresh" content="60">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta charset="UTF-8"/>
- <script src="../js/SwichDoc.js"></script>
  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet">
-
  </head>
+
+<script>
+    function dispS(){
+    document.getElementById('SId').style.display = "block";
+    document.getElementById('HMId').style.display  = "none";
+    document.getElementById('TId').style.display  = "none";
+    document.getElementById('EId').style.display  = "none";
+  }
+
+  function dispHM(){
+    document.getElementById('SId').style.display  = "none";
+    document.getElementById('HMId').style.display  = "block";
+    document.getElementById('TId').style.display  = "none";
+    document.getElementById('EId').style.display  = "none";
+  }
+  function dispT(){
+    document.getElementById('SId').style.display  = "none";
+    document.getElementById('HMId').style.display  = "none";
+    document.getElementById('TId').style.display  = "block";
+    document.getElementById('EId').style.display  = "none";
+  }
+  function dispE(){
+    document.getElementById('SId').style.display  = "none";
+    document.getElementById('HMId').style.display  = "none";
+    document.getElementById('TId').style.display  = "none";
+    document.getElementById('EId').style.display  = "block";
+  }
+  
+  function TurnOn(){
+    document.getElementById('imgBike').src="../photos/interest/bike2.jpg"
+    }
+    
+  function TurnOff(){
+    document.getElementById('imgBike').src="../photos/interest/bike1.jpg"
+    }
+
+  function TurnOnT(){
+    document.getElementById('imgTyp').src="../photos/interest/typiara2.jpg"
+    }
+
+  function TurnOffT(){
+    document.getElementById('imgTyp').src="../photos/interest/typiara1.jpg"
+    }
+    function TurnOnL(){
+    document.getElementById('imgLamp').src="../photos/interest/lamp2.jpg"
+    }
+
+  function TurnOffL(){
+    document.getElementById('imgLamp').src="../photos/interest/lamp1.jpg"
+    }
+
+
+</script>
 
 <body>
     <div class="flagsDiv"><input type="image" src="..\photos\flagEng.jpg" onclick="engF()" class="flags"></input></div>	
@@ -20,65 +69,92 @@
     <div class="flagsDiv"><input type="image" src="..\photos\flagPl.jpg" onclick="plF()" class="flags"></input></div>
     <br />
 
-
 <div class="rama">
     <div>
         <ul class="ulStyle">
             <li><a href="../html/interests.html">Interests</a></li>
             <li><a href="../html/docs.html">Docs</a></li>
-            <li><a href="../html/experience.html">Experience</a></li>
+            
             <li><a href="../html/mP.html">Marta Janik</a></li>
         </ul>
     </div><br />
 
-
+<div style="width:100%;height:auto;">
 <div class="gallery">
-  <a target="iFrame" href="interestPages\interestSport.html">
-    <img src="..\photos\interest\sport1.jpg" alt=":(" width="600px" height="400px">
-  </a>
+  <input type="image" onclick="dispS()" src="..\photos\interest\sport1.jpg" style="width:100%;">  
   <div class="desc">Sport</div>
 </div>
 
 <div class="gallery">
-  <a target="iFrame" href="interestPages\interestHandMade.html">
-    <img src="..\photos\interest\bike1.jpg" alt=":(" width="600px" height="400px">
-  </a>
+  <input type="image" onclick="dispHM()" src="..\photos\interest\bike1.jpg" style="width:100%;">  
   <div class="desc">Hand Made</div>
 </div>
 
 <div class="gallery">
-  <a target="iFrame" href="interestPages\interestTravel.html">
-    <img src="..\photos\interest\travel11.jpg" alt=":(" width="600" height="400">
-  </a>
+    <input type="image" onclick="dispT()" src="..\photos\interest\travel11.jpg"width=100% >
   <div class="desc">Reisen</div>
 </div>
 
 <div class="gallery">
-    <a href="interestPages\interestEating.html" target="iFrame" >
-      <img src="..\photos\interest\eating1.jpg" alt=":(" width="600" height="400">
+    <input type="image" onclick="dispE()" src="..\photos\interest\eating1.jpg" style="width:100%;">  
     </a>
     <div class="desc">Essen</div>
-  </div>
-
-  <div>
-    <iframe src="interestPages\interestEating.html" name="iFrame" style="border:none;background-color:hsla(36, 67%, 90%, 0.9);width:100%;height:40px">
-    </iframe>
-  </div>
-
-  <div id="sport" style="display:block;width:100%;background-color:hsla(36, 67%, 90%, 0.9);">
-      <p style="text-align:center;margin-top:8px;font-family:'Source Sans Pro';font-size:40px;">Essen</p>
-          
-      <div style="width:40%; float:left;">
-              <img src="..\photos\interest\eating1.jpg" alt=":(" width=100%></img>
-      </div>
-      
-      <div style="width:50%;float:right;margin-right:30px;font-family:'Source Sans Pro';">
-          <p>Kochen kann ich leider nicht so gut aber ich liebe essen.</p> 
-          <p>Besonders östliche Küche</p>
-      
-      </div>
-  </div>
-  
+</div>
 
 </div>
+
+<div style="clear:both"> </div>
+
+
+<div id="SId" style="background-color:hsla(36, 67%, 90%, 0.9);display:none;">
+
+    <p style="text-align:center;margin-top:8px;font-family:'Source Sans Pro';font-size:40px;margin:30px;padding:30px;">Sport</p>    
+    <p style="margin-left:5%;">Ich treibe viele Sportarten aber am liebsten Snowboard.</p>
+    <p style="margin-left:5%;"> Es gibt auch ein paar Snowboardarten: Slalom, Snowboardcross, Freestyle, Freeride. Meine groste Leidenschaft ist Off-Road Fahren also Freeride.
+       Während Studium war ich in einem Snowboard Team und ich habe mein Universität in polnische Studentenmeisterschaften in Slalom Giant representiert.  </p> 
+    <p style="margin-left:5%;">spoort</p>
+
+      <img src="..\photos\interest\sport2.jpg" alt=":(" width=40% style="margin-left:30px;"/>
+      <img src="..\photos\interest\sport1.jpg" alt=":(" width=40%/>
+      <img src="..\photos\interest\sport3.jpg" alt=":(" width=40% style="margin-left:30px;"/>
+  </div>
+  <div style="clear:both"> </div>
+
+  <div id="HMId" style="background-color:hsla(36, 67%, 90%, 0.9);display:none;">
+
+      <p style="text-align:center;margin-top:8px;font-family:'Source Sans Pro';font-size:40px;margin:30px;padding:30px;">Hand Made</p>    
+      <p style="margin-left:5%;">Ich habe keine lebiebteste Technik. Manchmal male ich kleinformatigen Bilder mit den Acrylfarben, manchmal nähe ich Kleidungen.</p> 
+        <p style="margin-left:5%;">Letztens habe ich ein Radfahr mit dem Erbauer Stichsäge gemacht.</p>
+          
+            
+    <img id="imgBike" onmousemove="TurnOn()" onmouseout="TurnOff()" src="../photos/interest/bike1.jpg" alt=":(" style="margin-left:30px;" width=33%></img>
+    <img id="imgTyp"  onmousemove="TurnOnT()" onmouseout="TurnOffT()" src="../photos/interest/typiara1.jpg" alt=":(" width=18%></img>       
+    <img id="imgLamp"  onmousemove="TurnOnL()" onmouseout="TurnOffL()" src="../photos/interest/lamp1.jpg" alt=":(" width=32%></img>       
+                
+  </div>
+  <div style="clear:both"> </div>
+
+  <div id="TId" style="background-color:hsla(36, 67%, 90%, 0.9);display:none;">
+
+      <p style="text-align:center;margin-top:8px;font-family:'Source Sans Pro';font-size:40px;margin:30px;padding:30px;">Reisen</p>    
+      <p style="margin-left:5%;">Ich verbinde Reisen mit Sport. Ich verbringe viel Zeit in Bergen vor allem im Winter.  </p> 
+      <p style="margin-left:5%;"></p>
+  
+        <img src="..\photos\interest\travel3.jpg" alt=":(" width=40% style="margin-left:30px;"/>
+        <img src="..\photos\interest\travel11.jpg" alt=":(" width=40%/>
+        <img src="..\photos\interest\travel1.jpg" alt=":(" width=40% style="margin-left:30px;"/>
+    </div>
+
+  <div id="EId" style="background-color:hsla(36, 67%, 90%, 0.9);display:none;">
+
+      <p style="text-align:center;margin-top:8px;font-family:'Source Sans Pro';font-size:40px;margin:30px;padding:30px;">Essen</p>    
+      <p style="margin-left:5%;">Kochen kann ich leider nicht so gut aber ich liebe essen.</p> 
+        <p style="margin-left:5%;">Besonders östliche Küche.</p>
+          
+        <img src="..\photos\interest\eating1.jpg" alt=":(" width=40% style="margin-left:30px;"/>
+        <img src="..\photos\interest\eating2.jpg" alt=":(" width=40%/>
+       
+  </div>
+
+  </div>
 </body>

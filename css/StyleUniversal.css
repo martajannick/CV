@@ -90,8 +90,9 @@ ul {
   .contact{
     background-color: black;
     color: white;
-    width: 420px;
-    padding: 10px;
+    width: 44vw;
+    font-size: 2vw;
+    padding: 1%;
     text-align: center;
     font-family: 'Source Sans Pro';
     font-weight: 200;
