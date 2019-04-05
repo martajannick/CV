@@ -91,10 +91,15 @@ ul {
     background-color: black;
     color: white;
     width: 44vw;
-    font-size: 2vw;
-    padding: 1%;
+    font-size: 2w;
+    padding: 2%;
     text-align: center;
     font-family: 'Source Sans Pro';
     font-weight: 200;
     float: right;
   }
+  @media only screen and (orientation: landscape) {
+    .contact {
+     
+  }
+}
