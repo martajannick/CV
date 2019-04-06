@@ -3,21 +3,23 @@
   }
 
 body  {
- background-image: url('../photos/backG2mobi.jpg');
+
+ /*background-image: url('../photos/backG2mobi.jpg'); 
  background-repeat: no-repeat;
- background-size: 100vw;
  background-attachment: fixed;
+ */
+ background-size: 100vw;
  font-family: 'Source Sans Pro';
  font-weight: 300;
+ background-color:  hsla(36, 67%, 90%, 1);
  }
 
 @media only screen and (orientation: landscape) {
     body {
-        background-image: url('../photos/backG2.jpg');
-  }
+       
+    }
 }
 
-* {box-sizing:border-box;}
 .flagsDiv{
 	width: 28px;
 	height: auto;
@@ -40,10 +42,9 @@ body  {
 }
 .ulStyle {
 font-family: 'Source Sans Pro';
-box-shadow: 0 0 7px hsla(36, 55%, 60%, 0.6), 0 0 0px black;
 color: black;
 width: 100%; 
-background-color: hsla(36, 55%, 60%, 1);
+background-color:hsla(36, 67%, 90%, 1);
 }
 
 ul {
@@ -62,14 +63,14 @@ ul {
   
   li a {
 	display: block;
-	color: white;
 	text-align: center;
 	padding: 5px;
 	text-decoration: none;
   }
   
   li a:hover {
-	background-color: hsla(36, 55%, 60%, 1);
+
+  text-decoration: underline;
   }
 
   .title{
@@ -87,19 +88,11 @@ ul {
     width: 70%;
   }
   
-  .contact{
-    background-color: black;
-    color: white;
-    width: 44vw;
-    font-size: 2w;
-    padding: 2%;
-    text-align: center;
-    font-family: 'Source Sans Pro';
-    font-weight: 200;
-    float: right;
-  }
-  @media only screen and (orientation: landscape) {
-    .contact {
-     
-  }
-}
+/*
+hsla(50, 56%, 51%, 1) zielony jak w tle
+hsla(85, 40%, 40%, 1)  ciemny zielony
+hsla(5, 66%, 64%, 1) usta 
+hsla(36, 55%, 60%, 1)  zolty pasek ble
+hsla(36, 67%, 90%, 1) jasne tlo
+
+*/
