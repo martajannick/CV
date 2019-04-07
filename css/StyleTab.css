@@ -3,22 +3,25 @@
 }
 
 .buttonList {
-	border: none;
-	background-color: hsla(36, 67%, 90%, 1);
+	
+	background-color: hsla(36, 45%, 90%, 1);
 	font-size: 17px;
 	font-family: 'Source Sans Pro';
 	margin: 5px;
 	text-align: left;
+	border-style: groove;
+	border-color:hsla(36, 45%, 3%, 1);
 
 }
 .buttonList:hover{
-	background-color: hsla(36, 55%, 60%, 0.6);
-
+	background-color: hsla(36, 45%, 90%, 1);
+	border-style: groove;
+	border-color:hsla(36, 45%, 75%, 1);
 }
 
 .rama{
-margin-left: 10vw;
-margin-right: 10vw;
+margin-left: 8vw;
+margin-right: 8vw;
 height: 90vw;
 }
 

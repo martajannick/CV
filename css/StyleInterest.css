@@ -12,19 +12,14 @@ div.gallery img {
   height: auto;
 }
 div.desc {
-  padding: 5px;
+  padding: 4px;
   text-align: center;
-  font-size: 3vw;
-  background-color:hsla(5, 66%, 64%, 0.65);
-}
-
-body{
-  font-family: 'Source Sans Pro';
-  font-weight: 300;
+  font-size: larger;
+  background-color: hsl(61, 36%, 54%);
 }
 
 .divContent{ 
-  background-color:hsla(36, 67%, 90%, 0.9);
+  background-color:hsla(36, 45%, 90%, 0.9);
 }
 
 

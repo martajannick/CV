@@ -4,21 +4,11 @@
 
 body  {
 
- /*background-image: url('../photos/backG2mobi.jpg'); 
- background-repeat: no-repeat;
- background-attachment: fixed;
- */
  background-size: 100vw;
  font-family: 'Source Sans Pro';
  font-weight: 300;
- background-color:  hsla(36, 67%, 90%, 1);
+ background-color:  hsla(36, 45%, 90%, 1);
  }
-
-@media only screen and (orientation: landscape) {
-    body {
-       
-    }
-}
 
 .flagsDiv{
 	width: 28px;
@@ -44,33 +34,40 @@ body  {
 font-family: 'Source Sans Pro';
 color: black;
 width: 100%; 
-background-color:hsla(36, 67%, 90%, 1);
+background-color:hsla(36, 45%, 90%, 1);
 }
 
 ul {
+  color: black;
 	width: 100%;	
 	list-style-type: none;
-	margin: 0;
-	padding: 5;
+  margin-right: 300px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px;
 	overflow: hidden;
   }
   
   li {
-	float: right;
-    font-size: 17px;
+    color: black;
+	  float: right;
+    font-size: 22px;
 
   }
   
   li a {
+    color: black;
 	display: block;
 	text-align: center;
 	padding: 5px;
-	text-decoration: none;
+  text-decoration: none;
+  border-bottom: 1px solid hsla(36, 45%, 90%, 1);
   }
   
   li a:hover {
-
-  text-decoration: underline;
+    color: black;
+    border-bottom: 0.5px solid black;
   }
 
   .title{
@@ -93,6 +90,6 @@ hsla(50, 56%, 51%, 1) zielony jak w tle
 hsla(85, 40%, 40%, 1)  ciemny zielony
 hsla(5, 66%, 64%, 1) usta 
 hsla(36, 55%, 60%, 1)  zolty pasek ble
-hsla(36, 67%, 90%, 1) jasne tlo
+hsla(36, 45%, 90%, 1) jasne tlo
 
 */
