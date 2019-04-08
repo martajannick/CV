@@ -19,7 +19,7 @@ nav {
   width: 30%;
   height: 300px; 
   background: hsla(36, 45%, 90%, 0.9);
-  padding: 20px;
+  padding-top: 10px;
   font-family: 'Source Sans Pro';
 }
 
@@ -35,8 +35,7 @@ article {
   padding: 20px;
   width: 70%;
   background-color: hsl(61, 36%, 54%);
-  font-family: 'Source Sans Pro';
- 
+  font-family: 'Source Sans Pro'; 
 }
 
 /* Clear floats after the columns */
@@ -66,7 +65,8 @@ footer {
 	background-color: none;
 	font-size: 17px;
 	font-family: 'Source Sans Pro';
-	margin: 5px;
+  margin: 0px;
+  margin-bottom: 10px;
   text-align: left;
   background-color: hsla(36, 45%, 90%, 0.9);
   border: groove;
@@ -79,5 +79,4 @@ footer {
   border-color: hsla(36, 45%, 95%, 0.9);
 
 }
-
 

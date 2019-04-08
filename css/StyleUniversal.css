@@ -8,6 +8,7 @@ body  {
  font-family: 'Source Sans Pro';
  font-weight: 300;
  background-color:  hsla(36, 45%, 90%, 1);
+ overflow: scroll;
  }
 
 .flagsDiv{
@@ -84,6 +85,10 @@ ul {
     float: right;
     width: 70%;
   }
+  .rama{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    }
   
 /*
 hsla(50, 56%, 51%, 1) zielony jak w tle

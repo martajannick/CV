@@ -15,7 +15,11 @@ div.desc {
   padding: 4px;
   text-align: center;
   font-size: larger;
-  background-color: hsl(61, 36%, 54%);
+
+  border-bottom: 0.5px solid hsl(61, 36%, 54%);
+  border-top: 0.5px solid hsl(61, 36%, 54%);
+  border-right: 0.5px solid hsl(61, 36%, 54%);
+  border-left: 0.5px solid hsl(61, 36%, 54%);
 }
 
 .divContent{ 
