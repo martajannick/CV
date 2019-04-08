@@ -34,7 +34,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: hsl(61, 36%, 54%);
+  background-color: hsla(61, 36%, 54%, 0.4);
   font-family: 'Source Sans Pro'; 
 }
 
