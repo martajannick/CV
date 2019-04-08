@@ -98,3 +98,11 @@ hsla(36, 55%, 60%, 1)  zolty pasek ble
 hsla(36, 45%, 90%, 1) jasne tlo
 
 */
+
+
+/*
+        <div class="flagsDiv"><input type="image" src="..\photos\flagEng.jpg" onclick="engF.js" class="flags"></input></div>	
+        <div class="flagsDiv"><input type="image" src="..\photos\flagGer.jpg" onclick="gerF.js"  class="flags"></input></div>	
+        <div class="flagsDiv"><input type="image" src="..\photos\flagPl.jpg" onclick="plF.js" class="flags"></input></div>
+        <br />
+        */

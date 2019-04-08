@@ -69,14 +69,18 @@ footer {
   margin-bottom: 10px;
   text-align: left;
   background-color: hsla(36, 45%, 90%, 0.9);
-  border: groove;
-  border-color: hsla(36, 45%, 95%, 1);
+  border-bottom: 0.5px solid hsl(61, 36%, 54%);
+  border-top: 0.5px solid hsl(61, 36%, 54%);
+  border-right: 0.5px solid hsl(61, 36%, 54%);
+  border-left: 0.5px solid hsl(61, 36%, 54%);
 
 }
 .buttonList:hover{
   background-color: hsla(36, 45%, 95%, 0.9);
-  border: groove;
-  border-color: hsla(36, 45%, 95%, 0.9);
+  border-bottom: 0.5px solid hsl(61, 36%, 54%);
+  border-top: 0.5px solid hsl(61, 36%, 54%);
+  border-right: 0.5px solid hsl(61, 36%, 54%);
+  border-left: 0.5px solid hsl(61, 36%, 54%);
 
 }
 
